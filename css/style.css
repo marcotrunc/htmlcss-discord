@@ -3,14 +3,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
+    font-family: 'Whitney', 'Helvetica Neue', 'Helvetica',Arial, sans-serif;
 }
 
 /* Utilities */
 .container{
     width: 1200px;
     margin: 0 auto;
-    background-color: whitesmoke;
+    
 }
 .float{
     float:left;
