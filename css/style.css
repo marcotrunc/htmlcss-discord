@@ -10,6 +10,10 @@
 .container{
     width: 1200px;
     margin: 0 auto;
+    background-color: whitesmoke;
+}
+.float{
+    float:left;
 }
 .clearfix::after{
     content: '';
@@ -46,6 +50,9 @@
 .font-60{
     font-size: 60px;
 }
+.font-20{
+    font-size: 20px;
+}
 .font-22{
     font-size: 22px;
 }
@@ -56,6 +63,9 @@
 
 /* Header */
 /* Top Header */
+header{
+    height: 80vh;
+}
 .top-header{
     height: 80px;
     background-color:#3161e0 ;
@@ -126,5 +136,28 @@
     margin: 35px 15px;
     padding: 15px 20px;
     border-radius: 25px;
+}
+.jumbo-contain h2{
+  margin-bottom:40px;
+}
+.jumbo-contain p{
+    line-height: 32px;
+}
+/* Sezione Luogo*/
+.separation{
+    height: 20vh;
+  
+}
 
+.luogo{
+    height: 100vh;
+
+}
+.luogo .luogo-image{
+    width: 60%;
+    height: 100vh; 
+}
+.luogo .luogo-testo{
+    width: 40%;
+    height: 100vh;   
 }
