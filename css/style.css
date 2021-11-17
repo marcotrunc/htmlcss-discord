@@ -18,8 +18,7 @@
 }
 .col-20{
     width: 20%;
-    height: 80px;
-    background-color: red;
+    height: 100%;
     line-height: 80px;
 }
 .col-60{
@@ -29,6 +28,14 @@
 .text-center{
     text-align: center;
     line-height: 80px;
+}
+.text-right{
+    text-align:right;
+}
+.btn-light{
+    color: black;
+    background-color:#fff;
+
 }
 /* Header */
 /* Top Header */
@@ -63,6 +70,11 @@
     text-decoration: underline;
 }
 /* accedi */
-{
-    
+.btn{
+    text-decoration: none;
+}
+.btn-signin{
+    padding: 15px 20px;
+    border-radius: 25px;
+
 }
