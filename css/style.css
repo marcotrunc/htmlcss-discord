@@ -21,6 +21,9 @@
     height: 100%;
     line-height: 80px;
 }
+.col-50{
+    width: 50%;
+}
 .col-60{
     width: 60%;
     height: 100%;
@@ -35,8 +38,22 @@
 .btn-light{
     color: black;
     background-color:#fff;
-
 }
+.btn-dark{
+    background-color: #23272A;
+    color: white;
+}
+.font-60{
+    font-size: 60px;
+}
+.font-22{
+    font-size: 22px;
+}
+.font-30{
+    font-size: 30px;
+}
+
+
 /* Header */
 /* Top Header */
 .top-header{
@@ -74,6 +91,39 @@
     text-decoration: none;
 }
 .btn-signin{
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+.btn-light:hover{
+    color:#3161e0 ;
+}
+
+/* Jumbotron */
+.jumbotron{
+    width: 100%;
+    height: 545px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.jumbo-contain{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn-dark:hover, .btn-light:hover{
+    color: #3161e0;
+    transform: scale(1.2);
+}
+
+.jumbo-contain .big{
+    display: inline-block;
+    margin: 35px 15px;
     padding: 15px 20px;
     border-radius: 25px;
 
