@@ -1,0 +1,68 @@
+/* Generics */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
+}
+
+/* Utilities */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.col-20{
+    width: 20%;
+    height: 80px;
+    background-color: red;
+    line-height: 80px;
+}
+.col-60{
+    width: 60%;
+    height: 100%;
+}
+.text-center{
+    text-align: center;
+    line-height: 80px;
+}
+/* Header */
+/* Top Header */
+.top-header{
+    height: 80px;
+    background-color:#3161e0 ;
+}
+
+.top-header .col-20,
+.top-header .col-60{
+    float: left;
+}
+#logo{
+    vertical-align: middle;
+}
+/* Navigatore */
+.main-menu{
+    display: inline-block;
+    
+    
+}
+.main-menu li{
+    display: inline-block;
+    margin:0 10px;
+}
+.main-menu li a{
+    text-decoration: none;
+    color: #f3f6fd;
+   
+}
+.main-menu li a:hover{
+    text-decoration: underline;
+}
+/* accedi */
+{
+    
+}
